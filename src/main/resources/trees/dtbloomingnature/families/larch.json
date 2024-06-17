@@ -1,0 +1,8 @@
+{
+    "common_leaves":"dtbloomingnature:larch",
+    "common_species":"dtbloomingnature:larch",
+    "primitive_log":"bloomingnature:larch_log",
+    "primitive_stripped_log":"bloomingnature:stripped_larch_log",
+    "max_branch_radius":8,
+    "generate_surface_root":true
+}

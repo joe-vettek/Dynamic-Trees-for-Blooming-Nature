@@ -1,0 +1,6 @@
+{
+    "parent":"dynamictrees:item/standard_seed",
+    "textures":{
+        "layer0":"dtbloomingnature:item/swamp_cypress_seed"
+    }
+}

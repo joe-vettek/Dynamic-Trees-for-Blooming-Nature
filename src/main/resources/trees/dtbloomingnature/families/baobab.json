@@ -1,0 +1,8 @@
+{
+    "common_leaves":"dtbloomingnature:baobab",
+    "common_species":"dtbloomingnature:baobab",
+    "primitive_log":"bloomingnature:baobab_log",
+    "primitive_stripped_log":"bloomingnature:stripped_baobab_log",
+    "max_branch_radius":8,
+    "generate_surface_root":true
+}

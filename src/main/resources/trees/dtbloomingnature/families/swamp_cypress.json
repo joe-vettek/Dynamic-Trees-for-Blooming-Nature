@@ -1,0 +1,8 @@
+{
+    "common_leaves":"dtbloomingnature:swamp_cypress",
+    "common_species":"dtbloomingnature:swamp_cypress",
+    "primitive_log":"bloomingnature:swamp_cypress_log",
+    "primitive_stripped_log":"bloomingnature:stripped_swamp_cypress_log",
+    "max_branch_radius":8,
+    "generate_surface_root":true
+}

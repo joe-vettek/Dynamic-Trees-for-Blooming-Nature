@@ -1,0 +1,8 @@
+{
+    "common_leaves":"dtbloomingnature:ebony",
+    "common_species":"dtbloomingnature:ebony",
+    "primitive_log":"bloomingnature:ebony_log",
+    "primitive_stripped_log":"bloomingnature:stripped_ebony_log",
+    "max_branch_radius":8,
+    "generate_surface_root":true
+}

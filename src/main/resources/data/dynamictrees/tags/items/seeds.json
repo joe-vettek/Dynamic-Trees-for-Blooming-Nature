@@ -1,0 +1,13 @@
+{
+    "replace":false,
+    "values":[
+        "dtbloomingnature:aspen_seed",
+        "dtbloomingnature:baobab_seed",
+        "dtbloomingnature:chestnut_seed",
+        "dtbloomingnature:ebony_seed",
+        "dtbloomingnature:fir_seed",
+        "dtbloomingnature:larch_seed",
+        "dtbloomingnature:swamp_cypress_seed",
+        "dtbloomingnature:swamp_oak_seed"
+    ]
+}

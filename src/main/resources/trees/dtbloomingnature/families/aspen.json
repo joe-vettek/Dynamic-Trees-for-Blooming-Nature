@@ -1,0 +1,8 @@
+{
+    "common_leaves":"dtbloomingnature:aspen",
+    "common_species":"dtbloomingnature:aspen",
+    "primitive_log":"bloomingnature:aspen_log",
+    "primitive_stripped_log":"bloomingnature:stripped_aspen_log",
+    "max_branch_radius":8,
+    "generate_surface_root":true
+}

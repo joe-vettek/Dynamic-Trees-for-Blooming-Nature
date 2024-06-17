@@ -1,0 +1,8 @@
+{
+    "common_leaves":"dtbloomingnature:fir",
+    "common_species":"dtbloomingnature:fir",
+    "primitive_log":"bloomingnature:fir_log",
+    "primitive_stripped_log":"bloomingnature:stripped_fir_log",
+    "max_branch_radius":8,
+    "generate_surface_root":true
+}

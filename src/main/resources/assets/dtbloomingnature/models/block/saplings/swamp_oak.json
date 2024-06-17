@@ -1,0 +1,8 @@
+{
+    "parent":"dynamictrees:block/smartmodel/sapling",
+    "textures":{
+        "particle":"bloomingnature:block/swamp_oak_leaves",
+        "log":"bloomingnature:block/swamp_oak_log_side",
+        "leaves":"bloomingnature:block/swamp_oak_leaves"
+    }
+}

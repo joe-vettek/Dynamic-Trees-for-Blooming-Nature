@@ -1,0 +1,6 @@
+{
+    "loader":"dynamictrees:surface_root",
+    "textures":{
+        "bark":"bloomingnature:block/chestnut_log_side"
+    }
+}
