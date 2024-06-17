@@ -1,3 +1,5 @@
 {
-    "primitive_leaves":"bloomingnature:swamp_cypress_leaves"
+  "type": "dynamictrees:scruffy",
+  "primitive_leaves": "bloomingnature:swamp_cypress_leaves",
+  "smother": 3
 }

@@ -1,10 +1,10 @@
 {
     "family":"dtbloomingnature:chestnut",
-    "tapering":0.3,
+    "tapering":0.32,
     "signal_energy":12.0,
-    "up_probability":1,
+    "up_probability":0.78,
     "lowest_branch_height":4,
-    "growth_rate":0.8,
+    "growth_rate":0.75,
     "leaves_properties":"dtbloomingnature:chestnut",
     "environment_factors":{
         "cold":0.75,
