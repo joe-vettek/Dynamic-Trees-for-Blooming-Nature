@@ -1,6 +1,0 @@
-{
-    "loader":"dynamictrees:surface_root",
-    "textures":{
-        "bark":"bloomingnature:block/swamp_oak_log_side"
-    }
-}
