@@ -1,3 +1,4 @@
 {
-    "primitive_leaves":"bloomingnature:baobab_leaves"
+    "primitive_leaves":"bloomingnature:baobab_leaves",
+    "cell_kit": "dynamictrees:acacia"
 }

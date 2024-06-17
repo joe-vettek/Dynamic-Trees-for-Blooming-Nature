@@ -3,6 +3,6 @@
     "common_species":"dtbloomingnature:baobab",
     "primitive_log":"bloomingnature:baobab_log",
     "primitive_stripped_log":"bloomingnature:stripped_baobab_log",
-    "max_branch_radius":8,
+    "max_branch_radius":14,
     "generate_surface_root":true
 }

@@ -1,3 +1,4 @@
 {
-    "primitive_leaves":"bloomingnature:ebony_leaves"
+    "primitive_leaves":"bloomingnature:ebony_leaves",
+    "cell_kit": "dynamictrees:acacia"
 }

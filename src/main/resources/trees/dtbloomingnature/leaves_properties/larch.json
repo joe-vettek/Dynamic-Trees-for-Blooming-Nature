@@ -1,3 +1,4 @@
 {
-    "primitive_leaves":"bloomingnature:larch_leaves"
+    "primitive_leaves":"bloomingnature:larch_leaves",
+    "cell_kit": "dynamictrees:conifer"
 }

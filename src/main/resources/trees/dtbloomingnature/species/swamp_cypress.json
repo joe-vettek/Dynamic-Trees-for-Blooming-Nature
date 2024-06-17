@@ -1,25 +1,33 @@
 {
-    "family":"dtbloomingnature:swamp_cypress",
-    "tapering":0.3,
-    "signal_energy":12.0,
-    "up_probability":1,
-    "lowest_branch_height":4,
-    "growth_rate":0.8,
-    "leaves_properties":"dtbloomingnature:swamp_cypress",
-    "environment_factors":{
-        "cold":0.75,
-        "hot":0.5,
-        "dry":0.5,
-        "forest":1.05
-    },
-    "perfect_biomes":{
-        "types":[
-            "forest",
-            "overworld"
-        ]
-    },
-    "primitive_sapling":"bloomingnature:swamp_cypress_sapling",
-    "always_show_on_waila":false,
-    "generate_seed":true,
-    "generate_sapling":true
+  "family": "dtbloomingnature:swamp_cypress",
+  "tapering": 0.3,
+  "signal_energy": 12.0,
+  "up_probability": 1,
+  "lowest_branch_height": 4,
+  "growth_rate": 0.8,
+  "leaves_properties": "dtbloomingnature:swamp_cypress",
+  "environment_factors": {
+    "cold": 0.5,
+    "hot": 0.85,
+    "dry": 0.5,
+    "forest": 1.05
+  },
+  "perfect_biomes": {
+    "tag": "#forge:is_swamp"
+  },
+  "primitive_sapling": "bloomingnature:swamp_cypress_sapling",
+  "always_show_on_waila": false,
+  "generate_seed": true,
+  "generate_sapling": true,
+  "features": [
+    {
+      "name": "vines",
+      "properties": {
+        "quantity": 1,
+        "max_length": 20,
+        "vine_type": "side",
+        "fruiting_radius": 5
+      }
+    }
+  ]
 }

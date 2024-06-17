@@ -1,25 +1,53 @@
 {
-    "family":"dtbloomingnature:ebony",
-    "tapering":0.3,
-    "signal_energy":12.0,
-    "up_probability":1,
-    "lowest_branch_height":4,
-    "growth_rate":0.8,
-    "leaves_properties":"dtbloomingnature:ebony",
-    "environment_factors":{
-        "cold":0.75,
-        "hot":0.5,
-        "dry":0.5,
-        "forest":1.05
+  "family": "dtbloomingnature:ebony",
+  "tapering": 0.5,
+  "signal_energy": 24.0,
+  "up_probability": 5,
+  "lowest_branch_height": 15,
+  "growth_rate": 1.1,
+  "leaves_properties": "dtbloomingnature:ebony",
+  "growth_logic_kit": {
+    "name": "jungle",
+    "properties": {
+      "branch_out_chance": 100
+    }
+  },
+  "environment_factors": {
+    "cold": 0.5,
+    "hot": 0.85,
+    "dry": 0.5,
+    "forest": 1.1
+  },
+  "perfect_biomes": {
+    "tag": "#minecraft:is_jungle"
+  },
+  "primitive_sapling": "bloomingnature:ebony_sapling",
+  "always_show_on_waila": false,
+  "generate_seed": true,
+  "generate_sapling": true,
+  "features": [
+    {
+      "name": "vines",
+      "properties": {
+        "quantity": 1,
+        "max_length": 20,
+        "vine_type": "side",
+        "fruiting_radius": 5
+      }
     },
-    "perfect_biomes":{
-        "types":[
-            "forest",
-            "overworld"
-        ]
+    {
+      "name": "roots",
+      "properties": {
+        "min_trunk_radius": 9,
+        "scale_factor": 20
+      }
     },
-    "primitive_sapling":"bloomingnature:ebony_sapling",
-    "always_show_on_waila":false,
-    "generate_seed":true,
-    "generate_sapling":true
+    {
+      "name": "clear_volume",
+      "properties": {
+        "height": 15
+      }
+    },
+    "bottom_flare"
+  ]
 }
