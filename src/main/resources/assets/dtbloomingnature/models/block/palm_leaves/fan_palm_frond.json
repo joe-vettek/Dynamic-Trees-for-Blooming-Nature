@@ -1,0 +1,6 @@
+{
+  "loader": "dtbloomingnature:large_palm_fronds",
+  "textures": {
+    "frond": "dtbloomingnature:block/palm_leaves/coconut_frond"
+  }
+}

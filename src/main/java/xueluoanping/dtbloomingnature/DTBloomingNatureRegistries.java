@@ -1,5 +1,6 @@
 package xueluoanping.dtbloomingnature;
 
+import com.ferreusveritas.dynamictrees.api.cell.CellKit;
 import com.ferreusveritas.dynamictrees.api.registry.RegistryEvent;
 import com.ferreusveritas.dynamictrees.api.registry.TypeRegistryEvent;
 import com.ferreusveritas.dynamictrees.api.worldgen.FeatureCanceller;
@@ -9,6 +10,7 @@ import com.ferreusveritas.dynamictrees.systems.genfeature.GenFeature;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import xueluoanping.dtbloomingnature.systems.ModCellKit;
 import xueluoanping.dtbloomingnature.systems.ModFeatures;
 import xueluoanping.dtbloomingnature.systems.ModGrowthLogicKits;
 import xueluoanping.dtbloomingnature.systems.leaves.SnowyLeaveProperties;
@@ -37,5 +39,10 @@ public class DTBloomingNatureRegistries {
     @SubscribeEvent
     public static void onGrowthLogicKitsRegistry(final com.ferreusveritas.dynamictrees.api.registry.RegistryEvent<GrowthLogicKit> event) {
         ModGrowthLogicKits.register(event.getRegistry());
+    }
+
+    @SubscribeEvent
+    public static void onCellKitsRegistry(final com.ferreusveritas.dynamictrees.api.registry.RegistryEvent<CellKit> event) {
+        ModCellKit.register(event.getRegistry());
     }
 }

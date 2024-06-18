@@ -1,0 +1,188 @@
+[
+  {
+    "select": {
+      "name": "minecraft:swamp"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dtbloomingnature:swamp_oak": 5,
+          "dtbloomingnature:swamp_cypress": 1,
+          "...": 10
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:sparse_jungle"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dtbloomingnature:ebony": 1,
+          "...": 50
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:snowy_taiga"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_after",
+        "random": {
+          "dtbloomingnature:fir": 2,
+          "...": 5
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:snowy_slopes"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_after",
+        "random": {
+          "dtbloomingnature:fir": 1,
+          "...": 10
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:snowy_plains"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dtbloomingnature:fir": 1,
+          "...": 10
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:savanna"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dtbloomingnature:baobab": 1,
+          "...": 10
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:river"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_after",
+        "random": {
+          "oak": 1,
+          "...": 10
+        }
+      },
+      "chance": 0.1
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:plains"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_after",
+        "random": {
+          "oak": 1,
+          "dtbloomingnature:chestnut": 1,
+          "...": 20
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:old_growth_spruce_taiga"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dtbloomingnature:larch": 3,
+          "...": 10
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:old_growth_birch_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dtbloomingnature:aspen": 3,
+          "...": 10
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:jungle"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dtbloomingnature:ebony": 1,
+          "...": 5
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:birch_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_after",
+        "random": {
+          "dtbloomingnature:aspen": 1,
+          "...": 10
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:beach"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dtbloomingnature:fan_palm": 1,
+          "...": 3
+        }
+      },
+      "chance": 0.1
+    }
+  }
+]

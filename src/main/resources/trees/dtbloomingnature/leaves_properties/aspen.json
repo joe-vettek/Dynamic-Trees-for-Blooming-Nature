@@ -1,3 +1,6 @@
 {
-    "primitive_leaves":"bloomingnature:aspen_leaves"
+  "type": "dynamictrees:scruffy",
+  "primitive_leaves": "bloomingnature:aspen_leaves",
+  "cell_kit": "dtbloomingnature:aspen",
+  "smother": 7
 }

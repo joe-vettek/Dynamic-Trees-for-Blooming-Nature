@@ -15,7 +15,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.Mth;
 import net.minecraft.world.level.Level;
+import xueluoanping.dtbloomingnature.DTBloomingNature;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 // Thanks to maxhyper
@@ -43,12 +46,16 @@ public class AspenTreeLogic extends GrowthLogicKit {
         Random random = new Random(seed);
         var delta = signal.delta;
 
-        if (signal.numSteps == species.getSignalEnergy() - 2 - random.nextInt(2)) {
+        if (signal.numSteps == species.getSignalEnergy() - 4 - random.nextInt(3)) {
             // probMap = new int[]{0, 0, 0, 0, 0, 1};
             probMap[1] = 0;
-            probMap[2 + random.nextInt(4)] = 10;
+            int maxD = 2 + random.nextInt(4);
+            probMap[maxD] = 10;
+            var list = new ArrayList<Integer>(List.of(2, 3, 4, 5));
+            list.removeIf(integer -> integer == maxD);
+            probMap[list.get(random.nextInt(3))] = 1;
+            // DTBloomingNature.logger(delta, probMap);
         }
-        // DTBetterEnd.logger(delta, probMap);
         probMap[originDir.ordinal()] = 0;
         return probMap;
     }

@@ -14,10 +14,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import org.jetbrains.annotations.NotNull;
+import xueluoanping.dtbloomingnature.util.PlaceUtil;
 
 import java.util.HashSet;
 import java.util.List;
@@ -86,14 +86,10 @@ public class AltGroundFeature extends GenFeature {
         return result;
     }
 
-    public boolean isAirAt(LevelAccessor accessor, BlockPos pos) {
-        return accessor.isStateAtPosition(pos, BlockBehaviour.BlockStateBase::isAir);
-    }
-
     public BlockPos findGround(LevelAccessor accessor, BlockPos endPos) {
         var mulPos = new BlockPos.MutableBlockPos(endPos.getX(), endPos.getY() - 1, endPos.getZ());
         int count = 0;
-        while (!isAirAt(accessor, endPos) && !Feature.isGrassOrDirt(accessor, mulPos)
+        while (!PlaceUtil.isAirAt(accessor, endPos) && !PlaceUtil.isGrassOrDirt(accessor, mulPos)
                 && mulPos.getY() > accessor.getMinBuildHeight() && count < 15) {
             mulPos.move(Direction.DOWN);
             count++;
@@ -126,11 +122,11 @@ public class AltGroundFeature extends GenFeature {
         for (int i = 2; i >= -3; --i) {
             BlockPos blockpos = pos.above(i);
             // && !accessor.getBlockState(pos).is(state.getBlock())
-            if (Feature.isGrassOrDirt(accessor, blockpos)) {
+            if (PlaceUtil.isGrassOrDirt(accessor, blockpos)) {
                 accessor.setBlock(blockpos, state, Block.UPDATE_CLIENTS);
                 break;
             }
-            if (!isAirAt(accessor, pos) && i < 0) {
+            if (!PlaceUtil.isAirAt(accessor, pos) && i < 0) {
                 break;
             }
         }

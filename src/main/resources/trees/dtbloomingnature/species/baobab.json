@@ -1,15 +1,14 @@
 {
   "family": "dtbloomingnature:baobab",
-  "tapering": 0.5,
-  "signal_energy": 15.0,
+  "tapering": 0.85,
+  "signal_energy": 18.0,
   "up_probability": 5,
   "lowest_branch_height": 8,
   "growth_rate": 1.0,
   "leaves_properties": "dtbloomingnature:baobab",
   "growth_logic_kit": {
-    "name": "jungle",
+    "name": "dtbloomingnature:baobab",
     "properties": {
-      "branch_out_chance": 100
     }
   },
   "environment_factors": {

@@ -36,6 +36,11 @@
       }
     },
     {
+      "name": "dtbloomingnature:decorate_trunk",
+      "properties": {
+      }
+    },
+    {
       "name": "roots",
       "properties": {
         "min_trunk_radius": 9,
