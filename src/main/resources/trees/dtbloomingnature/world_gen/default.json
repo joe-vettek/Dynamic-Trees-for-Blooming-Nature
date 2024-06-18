@@ -34,7 +34,7 @@
     },
     "apply": {
       "species": {
-        "method": "splice_after",
+        "method": "splice_before",
         "random": {
           "dtbloomingnature:fir": 2,
           "...": 5
@@ -53,7 +53,8 @@
           "dtbloomingnature:fir": 1,
           "...": 10
         }
-      }
+      },
+      "chance": 0.1
     }
   },
   {
@@ -65,7 +66,7 @@
         "method": "splice_before",
         "random": {
           "dtbloomingnature:fir": 1,
-          "...": 10
+          "...": 4
         }
       }
     }
@@ -105,7 +106,7 @@
     },
     "apply": {
       "species": {
-        "method": "splice_after",
+        "method": "splice_before",
         "random": {
           "oak": 1,
           "dtbloomingnature:chestnut": 1,
