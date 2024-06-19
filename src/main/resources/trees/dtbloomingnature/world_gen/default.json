@@ -73,6 +73,21 @@
   },
   {
     "select": {
+      "name": "minecraft:savanna_plateau"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_after",
+        "random": {
+          "acacia": 1,
+          "...": 10
+        }
+      },
+      "chance": 0.1
+    }
+  },
+  {
+    "select": {
       "name": "minecraft:savanna"
     },
     "apply": {
@@ -131,6 +146,20 @@
   },
   {
     "select": {
+      "name": "minecraft:old_growth_pine_taiga"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "oak": 1,
+          "dtbloomingnature:larch": 1,
+          "...": 10
+        }
+      }
+    }
+  },
+  {
+    "select": {
       "name": "minecraft:old_growth_birch_forest"
     },
     "apply": {
@@ -159,6 +188,48 @@
   },
   {
     "select": {
+      "name": "minecraft:forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dtbloomingnature:swamp_oak": 2,
+          "...": 10
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:flower_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dtbloomingnature:swamp_oak": 1,
+          "...": 10
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:dark_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dtbloomingnature:swamp_oak": 1,
+          "...": 15
+        }
+      }
+    }
+  },
+  {
+    "select": {
       "name": "minecraft:birch_forest"
     },
     "apply": {
@@ -171,6 +242,7 @@
       }
     }
   },
+
   {
     "select": {
       "name": "minecraft:beach"
