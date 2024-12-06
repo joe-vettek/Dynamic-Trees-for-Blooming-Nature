@@ -136,7 +136,7 @@
     },
     "apply": {
       "species": {
-        "method": "splice_before",
+        "method": "splice_after",
         "random": {
           "dtbloomingnature:larch": 3,
           "...": 10
@@ -150,6 +150,7 @@
     },
     "apply": {
       "species": {
+        "method": "splice_after",
         "random": {
           "oak": 1,
           "dtbloomingnature:larch": 1,
